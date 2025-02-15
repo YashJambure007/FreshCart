@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Assignment5.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        
+        <div class="headersec"> 
+            
+            <div class="freshcartlogo">
+                <a href=""><img src="./FoodShopAss.5/freshcart-logo.svg" alt=""></a>
+            </div>
+            <div class="textbox">
+                <input type="text" placeholder="Search For Products">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="location">
+                <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                <a href=""><span>Location</span></a>
+            </div>
+            <div class="lastitems">
+                <a href=""><i class="fa-regular fa-heart"><sup>4</sup></i></a>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+                <a href=""><i class="fa-duotone fa-solid fa-bag-shopping"><sup>5</sup></i></a>
+            </div>
+        </div>
+        <div class="nav">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="menu"><i class="fa-solid fa-burger"></i></label>
+                <ul class="navbar">
+                    <li><a href="#" class="nav1a"><i class="fa-brands fa-windows"></i> All Departments <i class="fa-solid fa-sort-down"></i></a>
+                        <div class="dropdown1">
+                            <ul>
+                                <li><a href="">Dairy, Bread & Eggs </a></li>
+                                <li><a href="">Snacks & Munchies </a></li>
+                                <li><a href="">Fruits & Vegetables </a></li>
+                                <li><a href="">Cold Drinks & Juices </a></li>
+                                <li><a href="">Breakfast & Instant Food </a></li>
+                                <li><a href="">Bakery & Biscuits </a></li>
+                                <li><a href="">Chicken, Meat & Fish </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Home <i class="fa-solid fa-sort-down"></i></a>
+                        <div class="dropdown2">
+                            <ul>
+                                <li><a href="#">Home Default </a></li>
+                                <li><a href="#">Home Modern </a></li>
+                                
+                                <li><a href="#">Home Creative </a></li>
+                                <li><a href="#">Home Local Store</a></li>
+                                <li><a href="#">Home Minimalist </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Shops <i class="fa-solid fa-sort-down"></i></a>
+                        <div class="dropdown3">
+                            <ul>
+                                <li><a href="#">Shop Grid - Filter</a></li>
+                                <li><a href="#">Shop Grid - 3 column</a></li>
+                                <li><a href="#">Shop List - Filter</a></li>
+                                <li><a href="#">Shop - Filter</a></li>
+                                <li><a href="#">Shop Wide</a></li>
+                                <li><a href="#">Shop Single</a></li>
+                                <li><a href="#">Shop Single v2</a></li>
+                                <li><a href="#">Shop Wishlist</a></li>
+                                <li><a href="#">Shop Cart</a></li>
+                                <li><a href="#">Shop Checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Stores <i class="fa-solid fa-sort-down"></i></a>
+                        <div  class="dropdown4">
+                            <ul>
+                                <li><a href="#">Store List</a></li>
+                                <li><a href="#">Store Grid</a></li>
+                                <li><a href="#">Store Single</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Mega Menu <i class="fa-solid fa-sort-down"></i></a>
+                        <div class="dropdown5">
+                            <ul>
+                                <div class="list1">
+                                    <li><a href="#" class="topitem">Dairy, Bread & Eggs</a></li>
+                                    <li><a href="#">Butter</a></li>
+                                    <li><a href="#">Milk Drinks</a></li>
+                                    <li><a href="#">Curd & Yogurt</a></li>
+                                    <li><a href="#">Eggs</a></li>
+                                    <li><a href="#">Buns & Bakery</a></li>
+                                    <li><a href="#">Cheese</a></li>
+                                    <li><a href="#">Condensed Milk</a></li>
+                                    <li><a href="#">Dairy Products</a></li>
+                                </div>
+                                <div class="list1">
+                                    <li><a href="#" class="topitem">Breakfast & Instant Food</a></li>
+                                    <li><a href="#">Breakfast Cereal</a></li>
+                                    <li><a href="#">Noodles, Pasta & Soup</a></li>
+                                    <li><a href="#">Frozen Veg Snacks</a></li>
+                                    <li><a href="#">Frozen Non-Veg Snacks</a></li>
+                                
+                                    <li><a href="#">Instant Mixes</a></li>
+                                    <li><a href="#">Batter</a></li>
+                                    <li><a href="#">Fruit and Juices</a></li>
+                                </div>
+                                <div class="list1">
+                                    <li><a href="#" class="topitem">Cold Drinks & Juices</a></li>
+                                    <li><a href="#">Soft Drinks</a></li>
+                                    <li><a href="#">Fruit Juices</a></li>
+                                    <li><a href="#">Coldpress</a></li>
+                                    <li><a href="#">Water & Ice Cubes</a></li>
+                                    <li><a href="#">Soda & Mixers</a></li>
+                                    <li><a href="#">Health Drinks</a></li>
+                                    <li><a href="#">Herbal Drinks</a></li>
+                                    <li><a href="#">Milk Drinks</a></li>
+           
+                                </div>
+                                <div class="list4">
+                                    <p>Dont miss this</p>
+                                    <h4>offer today.</h4>
+                                    <a href="">Shop Now</a>
+                                    <img src="./FoodShopAss.5/menu-banner.jpg" alt="">
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Pages <i class="fa-solid fa-sort-down"></i></a>
+                        <div  class="dropdown6">
+                            <ul>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog Single</a></li>
+                                <li><a href="#">Blog Category</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">404 Error</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Account <i class="fa-solid fa-sort-down"></i></a>
+                        <div  class="dropdown7">
+                            <ul>
+                                <li><a href="#">Sign in</a></li>
+                                <li><a href="#">Signup</a></li>
+                                <li><a href="#">Forgot Password</a></li>
+                                <li><a href="#">My Account <i class="fa-solid fa-chevron-right"></i></a>
+                                    <div class="dropdown8">
+                                        <ul>
+                                            <li><a href="#">Orders</a></li>
+                                            <li><a href="#">Settings</a></li>
+                                            <li><a href="#">Address</a></li>
+                                            <li><a href="#">Payment Method</a>
+                                            <li><a href="#">Notification</a>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav2a">Dashboard </a></li>
+
+                    <li><a href="#" class="nav2a">Docs <i class="fa-solid fa-sort-down"></i></a>
+                        <div  class="dropdown9">
+                            <ul>
+                                <div class="documentation">
+                                    <div class="leftside">
+                                        <i class="fa-regular fa-file-lines"></i>
+                                    </div>
+                                    <div class="rightside">
+                                        <h4>Documentation</h4>
+                                        <p>Browse the all documentation</p>
+                                    </div>
+                                </div>
+                                <div class="changelog">
+                                    <div class="leftside">
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                    <div class="rightside">
+                                        <h4>Changelog v1.0.0</h4>
+                                        <p>Browse the all documentation</p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+
+
+
+        <div class="topimgsec">
+            <div class="slide1">
+                
+                <h4>Opening Sale Discount 50%</h4>
+                <h1>SuperMarket For Fresh </h1>
+                <h2>Grocery</h2>
+                <p>Introduced a new model for online grocery shopping and convinient hme delivery.</p>
+                <a href="" id="anc1">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="" id="anc2"><i class="fa-solid fa-cart-shopping"></i> Buy Now </a>
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="categories">
+            <h1>Featured categories:</h1>
+            <div class="slider">
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-atta-rice-dal.jpg" alt="">
+                    <p>Atta,Rice & Dal</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-baby-care.jpg" alt="">
+                    <p>Baby Care</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-bakery-biscuits.jpg" alt="">
+                    <p>Bakery Biscuits</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-chicken-meat-fish.jpg" alt="">
+                    <p>Chicken Meat Fish</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-cleaning-essentials.jpg" alt="">
+                    <p>Cleaning Essentials</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-cold-drinks-juices.jpg" alt="">
+                    <p>Cold Drinks Juices</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-dairy-bread-eggs.jpg" alt="">
+                    <p>Dairy Bread Eggs</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-fruits-vegetables.jpg" alt="">
+                    <p>Fruits Vegetables</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-instant-food.jpg" alt="">
+                    <p>Instant Food</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-pet-care.jpg" alt="">
+                    <p>Pet Care</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-snack-munchies.jpg" alt="">
+                    <p>Snack Munchies</p>
+                </div>
+                <div class="box1">
+                    <img src="./FoodShopAss.5/category-tea-coffee-drinks.jpg" alt="">
+                    <p>Tea Coffee Drinks</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="vegibuns">
+            <div class="leftbox1">
+                <h1>Fruits & Vegetables</h1>
+                <p>Get Upto 30% Off</p>
+                <a href="" id="anchor1">Shop Now</a>
+            </div>
+            <div class="leftbox2">
+                <h1>Freshly Baked Buns</h1>
+                <p>Get Upto 25% Off</p>
+                <a href="" id="anchor1">Shop Now</a>
+            </div>
+        </div>
+
+
+
+        <div class="products">
+            <div class="rowa">
+                <div class="boxa">
+                    <p class="p1">Sale</p>
+                    <p class="p2">10%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-1.jpg" alt=""></a>
+                    <p class="p3">Snacks & Munchies</p>
+                    <a href="" class="anc3">Haldiram's Sev Bhujiya</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$21.6 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-2.jpg" alt=""></a>
+                    <p class="p3">Bakery & Biscuits</p>
+                    <a href="" class="anc3">NutriChoice Digestive</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$23.5 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p7">Buy 1 Get $4.00 Off</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-3.jpg" alt=""></a>
+                    <p class="p3">Snacks & Munchies</p>
+                    <a href="" class="anc3">Cadbury 5 Star Chocolate</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$35 <s>35$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p1">Hot</p>
+                    <p class="p2">40%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-4.jpg" alt=""></a>
+                    <p class="p3">Onion Flavour Potato</p>
+                    <a href="" class="anc3">Haldiram's Sev Bhujiya</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$3 <s>5$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p2">35%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-5.jpg" alt=""></a>
+                    <p class="p3">Instant Food</p>
+                    <a href="" class="anc3">Salted Instant Popcorn</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$21.6 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+           
+                <div class="boxa">
+                    <p class="p7">Buy 1 Get $4.00 Off</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-3.jpg" alt=""></a>
+                    <p class="p3">Snacks & Munchies</p>
+                    <a href="" class="anc3">Cadbury 5 Star Chocolate</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$35 <s>35$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p1">Sale</p>
+                    <p class="p2">10%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-1.jpg" alt=""></a>
+                    <p class="p3">Snacks & Munchies</p>
+                    <a href="" class="anc3">Haldiram's Sev Bhujiya</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$21.6 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p2">40%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-6.jpg" alt=""></a>
+                    <p class="p3">Dairy,Bread & Eggs</p>
+                    <a href="" class="anc3">Bluberry Greek Yogurt</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$14.4 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-7.jpg" alt=""></a>
+                    <p class="p3">Dairy,Bread & Eggs</p>
+                    <a href="" class="anc3">Britannia Cheese Slices</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$24 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p2">15%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-8.jpg" alt=""></a>
+                    <p class="p3">Instant Food</p>
+                    <a href="" class="anc3">Kellogg's Original Cereals</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$29.75 <s>35$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+            
+                <div class="boxa">
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-2.jpg" alt=""></a>
+                    <p class="p3">Bakery & Biscuits</p>
+                    <a href="" class="anc3">NutriChoice Digestive</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$23.5 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-9.jpg" alt=""></a>
+                    <p class="p3">Snacks & Munchies</p>
+                    <a href="" class="anc3">Slurrup Millet Chocolate</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$1 <s>2$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p2">25%</p>
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-10.jpg" alt=""></a>
+                    <p class="p3">Dairy,Bread & Eggs</p>
+                    <a href="" class="anc3">Amul Butter - 500gm</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$13.5 <s>18$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                <div class="boxa">
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-2.jpg" alt=""></a>
+                    <p class="p3">Bakery & Biscuits</p>
+                    <a href="" class="anc3">NutriChoice Digestive</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$23.5 <s>24$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+
+                 <div class="boxa">
+                    <p class="p4">Quick View</p>
+                    <p class="p5">Wishlist</p>  
+                    <p class="p6">Compare</p>
+        
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+                    <a href=""><img src="./FoodShopAss.5/product-img-9.jpg" alt=""></a>
+                    <p class="p3">Snacks & Munchies</p>
+                    <a href="" class="anc3">Slurrup Millet Chocolate</a>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+                    <div class="prodbot">
+                        <h5>$1 <s>2$</s></h5>
+                        <a href="">+ Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="sells">
+            <h1>Daily Best Sells</h1>
+            <div class="mainbox">
+                <div class="div1">
+                    <h2>100% Organic </h2>
+                    <h2>Coffee Beans.</h2>
+                    <p>Get the best deal before close.</p>
+                    <a href="">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="div2">
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+
+                    <a href=""><img src="./FoodShopAss.5/product-img-11.jpg" alt=""></a>
+
+                    <p class="pa1">Tea,Coffee & Drinks</p>
+
+                    <a href="" class="anc5">Roast Ground Coffee</a>
+
+                    <h5>$13.5 <s>18$</s></h5>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+
+                    <a href="" id="anc6">+ Add To Cart</a>
+
+                    <div class="timebox">
+                        <div class="squr1">
+                            <p>1421</p>
+                            <p class="pa2">Days</p>
+                        </div>
+                        <div class="squr1">
+                            <p>12</p>
+                            <p class="pa2">Hours</p>
+                        </div>
+                        <div class="squr1">
+                            <p>7</p>
+                            <p class="pa2">Mins</p>
+                        </div>
+                        <div class="squr1">
+                            <p>39</p>
+                            <p class="pa2">Sec</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div3">
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+
+                    <a href=""><img src="./FoodShopAss.5/product-img-12.jpg" alt=""></a>
+
+                    <p class="pa1">Fruits & Vegetables</p>
+
+                    <a href="" class="anc5">Crushed Tomatoes</a>
+
+                    <h5>$13.5 <s>18$</s></h5>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+
+                    <a href="" id="anc6">+ Add To Cart</a>
+
+                    <div class="timebox">
+                        <div class="squr1">
+                            <p>1421</p>
+                            <p class="pa2">Days</p>
+                        </div>
+                        <div class="squr1">
+                            <p>12</p>
+                            <p class="pa2">Hours</p>
+                        </div>
+                        <div class="squr1">
+                            <p>7</p>
+                            <p class="pa2">Mins</p>
+                        </div>
+                        <div class="squr1">
+                            <p>39</p>
+                            <p class="pa2">Sec</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div4">
+                    <h3><a href=""><i class="fa-regular fa-eye"></i><i class="fa-regular fa-heart"></i><i class="fa-solid fa-arrow-right-arrow-left"></i></a></h3>
+
+                    <a href=""><img src="./FoodShopAss.5/product-img-13.jpg" alt=""></a>
+
+                    <p class="pa1">Fruits & Vegetables</p>
+
+                    <a href="" class="anc5">Golden Pineapple</a>
+
+                    <h5>$14.4 <s>18$</s></h5>
+                    <h6><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.3 (4)</span></h6>
+
+                    <a href="" id="anc6">+ Add To Cart</a>
+
+                    <div class="timebox">
+                        <div class="squr1">
+                            <p>1421</p>
+                            <p class="pa2">Days</p>
+                        </div>
+                        <div class="squr1">
+                            <p>12</p>
+                            <p class="pa2">Hours</p>
+                        </div>
+                        <div class="squr1">
+                            <p>7</p>
+                            <p class="pa2">Mins</p>
+                        </div>
+                        <div class="squr1">
+                            <p>39</p>
+                            <p class="pa2">Sec</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="features">
+            <div class="box12">
+                <div class="time">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>10 minute grocery now</h4>
+                    <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you.</p>
+                </div>
+                <div class="gift">
+                    <i class="fa-solid fa-gift"></i>
+                    <h4>Best Prices & Offers</h4>
+                    <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best pricess & offers.</p>
+                </div>
+            </div>
+            <div class="box34">
+                <div class="assortment">
+                    <i class="fa-solid fa-cube"></i>
+                    <h4>Wide Assortment</h4>
+                    <p>Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg & other categories.</p>
+                </div>
+                <div class="return">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <h4>Easy Returns</h4>
+                    <p>Not satisfied with a product? Return it at the doorstep & get a refund within hours. No questions asked policy .</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <div class="footer">
+            <div class="variety">
+                <div class="col12">
+                    <div class="col1">
+                        <h4>Categories</h4>
+                        <a href=""><p>Vegetables & Fruits</p></a>
+                        <a href=""><p>Breakfast & instant food</p></a>
+                        <a href=""><p>Bakery & Biscuits</p></a>
+                        <a href=""><p>Atta, rice & dal</p></a>
+                        <a href=""><p>Sauces & spreads</p></a>
+                        <a href=""><p>Organic & gourmet</p></a>
+                        <a href=""><p>Baby care</p></a>
+                        <a href=""><p>Cleaning essentials</p></a>
+                        <a href=""><p>Personal care</p></a>
+                    </div>
+                    <div class="col2">
+                        <a href=""><p>Dairy, bread & eggs</p></a>
+                        <a href=""><p>Cold drinks & juices</p></a>
+                        <a href=""><p>Tea, coffee & drinks</p></a>
+                        <a href=""><p>Masala, oil & more</p></a>
+                        <a href=""><p>Chicken, meat & fish</p></a>
+                        <a href=""><p>Paan corner</p></a>
+                        <a href=""><p>Pharma & wellness</p></a>
+                        <a href=""><p>Home & office</p></a>
+                        <a href=""><p>Pet care</p></a>
+                    </div>
+                </div>
+                <div class="col3456">
+                    <div class="col34">
+                        <div class="col3">
+                            <h4>Get to know us</h4>
+                            <a href=""><p>Company</p></a>
+                            <a href=""><p>About</p></a>
+                            <a href=""><p>Blog</p></a>
+                            <a href=""><p>Help Center</p></a>
+                            <a href=""><p>Our Value</p></a>
+                        </div>
+                        <div class="col4">
+                            <h4>For Consumers</h4>
+                            <a href=""><p>Payments</p></a>
+                            <a href=""><p>Shipping</p></a>
+                            <a href=""><p>Product Returns</p></a>
+                            <a href=""><p>FAQ</p></a>
+                            <a href=""><p>Shop Checkout</p></a>
+                        </div>
+                    </div>
+                    <div class="col56">
+                        <div class="col5">
+                            <h4>Become a Shopper</h4>
+                            <a href=""><p>Shopper Opportunities</p></a>
+                            <a href=""><p>Become a Shopper</p></a>
+                            <a href=""><p>Earnings</p></a>
+                            <a href=""><p>Ideas & Guides</p></a>
+                            <a href=""><p>New Retailers</p></a>
+                        </div>
+                        <div class="col6">
+                            <h4>Freshcart programs</h4>
+                            <a href=""><p>Freshcart programs</p></a>
+                            <a href=""><p>Gift Cards</p></a>
+                            <a href=""><p>Promos & Coupons</p></a>
+                            <a href=""><p>Freshcart Ads</p></a>
+                            <a href=""><p>Careers</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="paypartdeli">
+                <div class="paypart">
+                    <h4>Payment Partners</h4>
+                    <img src="./FoodShopAss.5/amazonpay.svg" alt="">
+                    <img src="./FoodShopAss.5/american-express.svg" alt="">
+                    <img src="./FoodShopAss.5/mastercard.svg" alt="">
+                    <img src="./FoodShopAss.5/paypal.svg" alt="">
+                    <img src="./FoodShopAss.5/visa.svg" alt="">
+                </div>
+                <div class="getdeli">
+                    <h4>Get deliveries with FreshCart</h4>
+                    <img src="./FoodShopAss.5/appstore-btn.svg" alt="">
+                    <img src="./FoodShopAss.5/googleplay-btn.svg" alt="">
+                </div>
+            </div>
+
+            <hr>
+
+
+            <div class="botfooter">
+                <div class="leftrow">
+                    <p>© 2022 - 2024 FreshCart eCommerce HTML Template. All rights reserved. Powered by</p>
+                    <a href=""><h4>Codescandy.</h4></a>
+                </div>
+                <div class="rightrow">
+                    <p>Follow us on</p>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
